@@ -15,7 +15,7 @@ import java.util.UUID;
 public class Transaction {
    @Id
    @GeneratedValue
-   private UUID id;
+   private Long id;
 
    @NotNull
    @Column(name = "date")
@@ -37,7 +37,7 @@ public class Transaction {
    private String description;
 
 
-    public UUID getId() {
+    public Long getId() {
         return id;
     }
 
