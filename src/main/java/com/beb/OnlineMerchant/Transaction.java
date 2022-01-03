@@ -41,6 +41,9 @@ public class Transaction {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public Date getTransactionDate() {
         return transactionDate;
@@ -106,4 +109,6 @@ public class Transaction {
                 ", description='" + description + '\'' +
                 '}';
     }
+
+
 }
